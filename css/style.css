@@ -1,0 +1,48 @@
+hmtl, body {
+  margin: 0;
+  line-height: 0;
+}
+
+#container {
+  overflow: hidden;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #586198;
+  line-height: 1;
+  font-size: 5em;
+  mix-blend-mode: lighten;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+@media (min-width: 960px) {
+  h1 {
+    font-size: 10em;
+  }
+}
+
+
+h1, p {
+  display: none;
+}
+
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 30vw;
+  height: 40vh;
+  background-color: #6e78a9;
+    mix-blend-mode: lighten;
+}
